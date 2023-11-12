@@ -20,7 +20,7 @@ class FragmentB : Fragment() {
         val bundle = arguments
         if (bundle != null) {
             val data = bundle.getString("data")
-            textViewResult.text = data
+            textViewResult.text = "Hola " + data
         }
 
         return view
